@@ -1,0 +1,45 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Alesha",
+      "phone": "123586"
+    },
+    {
+      "id": 4,
+      "name": "Bjdek Chebunov",
+      "phone": "785678"
+    },
+    {
+      "id": 5,
+      "name": "Bjdek Chebj",
+      "phone": "785678"
+    },
+    {
+      "id": 7,
+      "name": "Bjdek Chebj",
+      "phone": "785678"
+    },
+    {
+      "id": 8,
+      "name": "Bjdek Chebj",
+      "phone": "785678"
+    },
+    {
+      "name": "Andrusha",
+      "phone": "5575123",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$Af.ccwWoiNsaZaJoVS1pjOABMN4YY3c1eSL9wdAOpMTh1TxAiJVh2",
+      "id": 1
+    }
+  ],
+  "login": {
+    "email": "test@test.com",
+    "password": "test"
+  }
+}

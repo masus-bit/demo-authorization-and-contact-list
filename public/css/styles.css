@@ -1,0 +1,196 @@
+.user-page__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(122, 113, 238),
+    rgb(143, 112, 220),
+    rgb(164, 110, 203),
+    rgb(185, 109, 185),
+    rgb(206, 107, 168),
+    rgb(196, 113, 164),
+    rgb(185, 119, 160),
+    rgb(175, 125, 156),
+    rgb(164, 131, 151),
+    rgb(154, 137, 147),
+    rgb(143, 143, 143)
+  );
+  margin-top: -10px;
+}
+.sign-in__form {
+  border-radius: 10px;
+  width: 800px;
+  height: 400px;
+  background: white;
+  box-shadow: 0px 10px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.sign-in__title {
+  font-family: "Oxygen", sans-serif;
+}
+.sign-in__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.sign-in__label {
+  font-size: small;
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+}
+.sign-in__input,
+.search-by-name,
+.input-name,
+.input-phone {
+  font-size: 1.3em;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.search-by-name {
+  width: 700px;
+}
+.input-name,
+.input-phone {
+  margin-top: 30px;
+  height: 20px;
+  width: 150px;
+}
+.sign-in__btn,
+.add {
+  font-family: "Oxygen", sans-serif;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: violet;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 0 3px black;
+}
+.sign-in__btn:hover,
+.add:hover {
+  width: 770px;
+  height: 40px;
+  transition: 0.2s;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(122, 113, 238),
+    rgb(143, 112, 220),
+    rgb(164, 110, 203),
+    rgb(185, 109, 185),
+    rgb(206, 107, 168),
+    rgb(196, 113, 164),
+    rgb(185, 119, 160),
+    rgb(175, 125, 156),
+    rgb(164, 131, 151),
+    rgb(154, 137, 147),
+    rgb(143, 143, 143)
+  );
+  margin-top: -10px;
+}
+.contacts-board {
+  border-radius: 10px;
+  width: 1000px;
+
+  background: white;
+  box-shadow: 0px 10px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 700px;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.contacts-item--n,
+.contacts-item--name,
+.contacts-item--phone {
+  display: flex;
+  width: 200px;
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+}
+
+.edit-btn,
+.delete-btn,
+.add-save-btn,
+.save-btn {
+  height: 30px;
+  width: 80px;
+  z-index: 10000;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: violet;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 0 3px black;
+  margin-left: 20px;
+}
+.edit-btn:hover,
+.delete-btn:hover,
+.add-save-btn:hover,
+.save-btn:hover {
+  width: 100px;
+  transition: 0.2s;
+}
+.delete-btn {
+  background-color: black;
+}
+.add {
+  margin-top: 30px;
+}
+.contacts-item--num {
+  margin-left: -90px;
+}
+.input-name--edit,
+.input-phone--edit,
+.save-btn--edit {
+  margin-top: -220px;
+}
+.edit-btn,
+.delete-btn {
+  margin-top: 15px;
+}
