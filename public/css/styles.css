@@ -185,10 +185,17 @@
 .contacts-item--num {
   margin-left: -90px;
 }
+.contact-edit{
+
+  display: flex;
+align-items: center;
+margin-top: -5px;
+}
 .input-name--edit,
 .input-phone--edit,
 .save-btn--edit {
-  margin-top: -220px;
+  margin-top: 0;
+
 }
 .edit-btn,
 .delete-btn {

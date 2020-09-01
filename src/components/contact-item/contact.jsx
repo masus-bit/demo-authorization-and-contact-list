@@ -43,16 +43,16 @@ export class Contact extends PureComponent {
                     {number + 1}
                   </div>
                   <input
-                    className="input-name input-name--edit "
+                    className="input-name input-name--edit"
                     id="input-name"
                     type="text"
                     placeholder={item.name}
                     defaultValue={item.name}
                   />
                   <input
-                    className="input-phone input-phone--edit "
+                    className="input-phone input-phone--edit"
                     id="input-phone"
-                    type="number"
+                    type="text"
                     placeholder={item.phone}
                     defaultValue={item.phone}
                   />
@@ -69,6 +69,7 @@ export class Contact extends PureComponent {
             <button className="edit-btn" onClick={this.onEdit}>
               EDIT
             </button>
+            
             <button
               className="delete-btn"
               onClick={(evt) => {
@@ -78,7 +79,9 @@ export class Contact extends PureComponent {
             >
               DELETE
             </button>
+            
           </div>
+          
         </li>
       </Fragment>
     );

@@ -6,29 +6,24 @@
       "phone": "123586"
     },
     {
-      "id": 4,
-      "name": "Bjdek Chebunov",
-      "phone": "785678"
-    },
-    {
       "id": 5,
       "name": "Bjdek Chebj",
       "phone": "785678"
     },
     {
-      "id": 7,
-      "name": "Bjdek Chebj",
-      "phone": "785678"
-    },
-    {
       "id": 8,
-      "name": "Bjdek Chebj",
+      "name": "Bjdek Chebjo",
       "phone": "785678"
     },
     {
       "name": "Andrusha",
       "phone": "5575123",
       "id": 9
+    },
+    {
+      "name": "Georgy",
+      "phone": "0213423",
+      "id": 10
     }
   ],
   "users": [

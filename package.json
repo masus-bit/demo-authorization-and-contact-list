@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "dev": "npm start & json-server db.json -m ./node_modules/json-server-auth"
+    "dev": "npm start & node server.js -m ./node_modules/json-server-auth"
   },
   "devDependencies": {
     "@babel/core": "7.10.3",

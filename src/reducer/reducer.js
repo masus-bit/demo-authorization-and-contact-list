@@ -93,7 +93,7 @@ export const Operations = {
   },
   login: (email, password) => (dispatch, _getState, api) => {
     return api.post(`/login`, { email, password }).then((response) => {
-      if (response.status === 200) {
+      if (response.status === 201 || 200) {
         dispatch(ActionCreator.auth(true));
       } else {
         dispatch(ActionCreator.auth(false));

@@ -6,7 +6,7 @@ const createApi = (dispatch) => {
   const api = axios.create({
     baseURL: "http://localhost:3000",
     timeout: TIMEOUT,
-    withCredentials: true,
+    withCredentials: false,
   });
 
   const onSuccess = (response) => response;
